@@ -1,0 +1,121 @@
+.head-of-page{
+  background-image: url("images/Linkedin-Banner.jpg");
+  background-color: #cccccc;
+}
+
+.linkedin-banner{
+  width:100%;
+}
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+#title{
+  background-color: #ff4c68;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+h1{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+line-height: 1.4;
+}
+
+.navbar{
+  padding-bottom: 1.5rem;
+}
+ .navbar-brand{
+   /* font-weight: bold; */
+   font-size: 2.5rem;
+ }
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+}
+
+.download-btn{
+  margin: 5% 3% 5% 0;
+}
+
+.iphone-mockup{
+  width: 60%;
+  transform: rotate(25deg);
+}
+
+.carousel-item{
+    padding: 15% 15%;
+}
+
+.bottom_container{
+  font-family: 'Roboto', sans-serif;
+  font-size: 50%;
+  background-color: #66bfbf;
+}
+
+.btn-email {
+   -webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+   border-radius: 2px;
+   color: #FFFFFF;
+   font-family: Open Sans;
+   font-size: 20px;
+   font-weight: 700;
+   padding-left: 3px;
+   padding-right: 3px;
+   background-color: #EA4335;
+   border: solid #BB001B 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn-email:hover {
+   background: #BB001B;
+   border: solid #DD380D 1px;
+   -webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+   border-radius: 3px;
+   text-decoration: none;
+}
+.btn-linkedin {
+   background: #3D94F6;
+   background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+   -webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+   border-radius: 2px;
+   color: #FFFFFF;
+   font-family: Open Sans;
+   font-size: 22px;
+   font-weight: 700;
+   padding-left: 3px;
+   padding-right: 3px;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn-linkedin:hover {
+   background: #1E62D0;
+   border: solid #337FED 1px;
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+   text-decoration: none;
+}
