@@ -1,26 +1,27 @@
-.head-of-page{
-  background-image: url("images/Linkedin-Banner.jpg");
-  background-color: #cccccc;
-}
-
-.linkedin-banner{
-  width:100%;
-}
-body{
-  font-family: "Montserrat";
-  text-align: center;
-}
-#title{
-  background-color: #ff4c68;
+#intro{
+  background: url(../images/Linkedin-Banner.jpg);
+  background-size: 100%;
+  /* background-color: black; */
+  background-blend-mode:overlay;
+  background-repeat: no-repeat;
+  text-align: left;
 }
 
 .container-fluid{
-  padding: 3% 15%;
+  padding: 23% 10%;
+}
+
+body{
+  /* background: url("images\\Linkedin-Banner.jpg"); */
+  /* background-color: #cccccc; */
+  font-family: "Montserrat";
+  text-align: center;
 }
 
 h1{
   font-size: 3rem;
   line-height: 1.5;
+  color: #FFF5C3;
 }
 
 h3{
@@ -28,7 +29,13 @@ line-height: 1.4;
 }
 
 .navbar{
-  padding-bottom: 1.5rem;
+  /* padding-bottom: 1.5rem; */
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  background: rgba(17,21,23,.9);
+  width: 100%;
+  height: 4.5rem;
 }
  .navbar-brand{
    /* font-weight: bold; */
@@ -47,19 +54,25 @@ line-height: 1.4;
   margin: 5% 3% 5% 0;
 }
 
-.iphone-mockup{
-  width: 60%;
-  transform: rotate(25deg);
+#resume{
+  padding: 5% 10%;
 }
 
+.card-grid{
+  padding: 3% 2%;
+}
+
+#recommendations{
+  background-color: #FFF5C3;
+  width: auto;
+  height: 28rem;
+}
 .carousel-item{
-    padding: 15% 15%;
+    padding: 5% 15%;
 }
 
-.bottom_container{
-  font-family: 'Roboto', sans-serif;
-  font-size: 50%;
-  background-color: #66bfbf;
+#contact{
+  padding: 5% 10%;
 }
 
 .btn-email {
@@ -118,4 +131,14 @@ line-height: 1.4;
    -moz-border-radius: 3px;
    border-radius: 3px;
    text-decoration: none;
+}
+
+#footer{
+  padding: 0;
+}
+.bottom_container{
+  font-family: 'Roboto', sans-serif;
+  font-size: 80%;
+  background-color: #66bfbf;
+  padding: 0.5%;
 }

@@ -22,80 +22,83 @@
 </head>
 
 <body>
-<section id="head">
-  <div class="container-fluid head-of-page">
-    one
-    <!-- <img class="linkedin-banner" src="images/Linkedin-Banner.jpg" alt="linkedin-banner"> -->
 
+  <section id="intro">
 
-  </div>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Recommendations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Gallery</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-</section>
-  <section id="title">
+    <!-- Title -->
+    <!-- Grid -->
     <div class="container-fluid">
-
-      <!-- Nav Bar -->
-      <nav class="navbar bg-dark navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="">Portfolio</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="">Resume</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
-
       <div class="row">
-        <!-- Grid 1 -->
-        <!-- Title -->
-        <div class="col-lg-6">
+        <div class="title col-lg-6">
           <h1>Maayan Rozen</h1>
           <h1>Full-Stack Developer</h1>
-          <!-- Added the 'download-btn' class to the 2 followings, so we can style them both -->
-          <button type="button" class="btn btn-dark btn-lg download-btn"><i class="fab fa-apple"></i>Download</button>
-          <button type="button" class="btn btn-outline-light btn-lg download-btn"><i class="fab fa-google-play"></i> Download</button>
         </div>
+      </div>
+    </div>
+  </section>
 
-        <!-- Grid 2 -->
-        <!-- Mobile img -->
-        <div class="col-lg-6">
-          <img class="iphone-mockup" src="images/iphone6.png" alt="iphone-mockup">
+  <!-- Resume -->
+  <section id="resume">
+    <!-- Grid -->
+    <div class="row">
+      <div class="card-grid col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
         </div>
       </div>
 
+      <div class="card-grid col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-grid col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
 
-  <!-- Features -->
-
-  <section id="features">
-
-    <h3>Lorem ipsum</h3>
-    <p>Work in progress</p>
-
-    <h3>Lorem ipsum</h3>
-    <p>Work in progress</p>
-
-    <h3>Lorem ipsum</h3>
-    <p>Work in progress</p>
-
-  </section>
-
-
-  <!-- Testimonials -->
-
+  <!-- Recommendations -->
   <section id="recommendations">
 
     <div id="carouselControls" class="carousel slide" data-ride="carousel">
@@ -129,8 +132,7 @@
           <em>Dan Liu</em>
         </div>
         <div class="carousel-item">
-          <h3>"As a software developer at Temenos, I've had the pleasure of working closely with Maayan in a number of FinTech third party integrations.
-            Maayan is a talented software automation engineer who has strong technical skills, and always eager to learn something new.
+          <h3>"...Maayan is a talented software automation engineer who has strong technical skills, and always eager to learn something new.
             She is positive, helpful and happily provides support to the team.
             We had released projects to production with confidence knowing that Maayan had taken that extra mile to test any possible scenario.
             She was a very important part in our team and I'm sure she would be an asset to any company."</h3>
@@ -161,19 +163,22 @@
       </div>
     </div>
   </div>
-  <hr>
   </section>
 
 
   <!-- Footer -->
 
   <footer id="footer">
+    <hr>
     <div class="bottom_container">
       <p>© Copyright 2020 Maayan Rozen.</p>
       <p>Icons made by <a href="https://www.flaticon.com/authors/dinosoftlabs" title="DinosoftLabs">DinosoftLabs</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
     </div>
-
   </footer>
+
+  <!-- Added the 'download-btn' class to the 2 followings, so we can style them both -->
+  <!-- <button type="button" class="btn btn-dark btn-lg download-btn"><i class="fab fa-apple"></i>Download</button>
+  <button type="button" class="btn btn-outline-light btn-lg download-btn"><i class="fab fa-google-play"></i> Download</button> -->
 
 </body>
 
