@@ -1,0 +1,19 @@
+{
+  "name": "myportfolio",
+  "version": "1.0.0",
+  "description": "maayan rozen resume and projects web page",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarusimaayan/MyPortfolio.git"
+  },
+  "author": "Maayan Rozen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarusimaayan/MyPortfolio/issues"
+  },
+  "homepage": "https://github.com/sarusimaayan/MyPortfolio#readme"
+}

@@ -6,7 +6,7 @@
 }
 
 .container-fluid{
-  padding: 20% 10%;
+  padding: 10% 10%;
   margin: 0;
 }
 
@@ -22,13 +22,13 @@ body{
 h1{
   line-height: 1.5;
   color: #fefefa;
-  /* font-size: 400% */
+  font-size: 400%
 }
 
 h2{
   line-height: 1.5;
   color: #fefefa;
-  /* font-size: 200%; */
+  font-size: 200%;
 }
 
 h3{
@@ -95,7 +95,16 @@ line-height: 1.4;
   margin-bottom: 0;
 }
 
-.btn-email {
+.contact-item{
+  margin: 10px 10px;
+}
+
+#email-btn, #linkedin-btn {
+  width: 2%;
+}
+
+
+/* .btn-email {
    -webkit-border-radius: 2px;
    -moz-border-radius: 2px;
    border-radius: 2px;
@@ -121,6 +130,7 @@ line-height: 1.4;
    border-radius: 3px;
    text-decoration: none;
 }
+
 .btn-linkedin {
    background: #3D94F6;
    background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
@@ -151,7 +161,7 @@ line-height: 1.4;
    -moz-border-radius: 3px;
    border-radius: 3px;
    text-decoration: none;
-}
+} */
 
 #footer{
   padding: 0;
@@ -160,4 +170,18 @@ line-height: 1.4;
   font-family: 'Roboto', sans-serif;
   font-size: 80%;
   padding: 0.5%;
+}
+
+@media (max-width: 850px) {
+  h1{
+    /* line-height: 1.5;
+    color: #fefefa; */
+    font-size: 390%
+  }
+
+  h2{
+    /* line-height: 1.5;
+    color: #fefefa; */
+    font-size: 190%;
+  }
 }
